@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6, p { margin: 0; }
 html {
   font-family: 'Noto Sans', 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 14px;
-  background: rgb(25,30,45); 
+  background: rgb(255,255,255); 
 }
 h1 { font-size: 3.8rem; }
 h2 { font-size: 1.8rem; }
