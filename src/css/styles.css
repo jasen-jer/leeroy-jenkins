@@ -2,7 +2,7 @@
 
 @import 'https://fonts.googleapis.com/icon?family=Material+Icons';
 @import 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css';
-@import 'https://fonts.googleapis.com/css?family=Noto+Serif|Roboto+Slab';
+@import 'https://fonts.googleapis.com/css?family=Roboto|Noto+Sans';
 
 /* defaults */
 html, body, #root, #content {
@@ -16,15 +16,15 @@ div, header, nav, footer {
   margin: 0;
   padding: 0;
 }
-h1 { padding: 30px 0 20px; }
-h2 { padding: 24px 0 16px; }
-h3 { padding: 12px 0 8px; }
+h1 { padding: 35px 0 5px; }
+h2 { padding: 20px 0 5px; }
+h3 { padding: 10px 0 5px; }
 h4, h5, h6, p { padding: 8px 0; }
 h1, h2, h3, h4, h5, h6, p { margin: 0; }
 
 /* responsive text sizes */
 html {
-  font-family: 'Noto Sans', 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', 'Noto Sans', sans-serif;
   font-size: 14px;
   background: rgb(255,255,255); 
 }
@@ -50,3 +50,4 @@ h4 { font-size: 1.2rem; }
   h3 { font-size: 1.8rem; }
   h4 { font-size: 1.5rem; }
 }
+
