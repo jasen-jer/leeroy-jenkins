@@ -1,7 +1,13 @@
-import React from 'react';
+import React from 'react'
 import Splash from './Splash'
-import Parallax1 from './Parallax1';
-import Parallax2 from './Parallax2';
+import Mission from './Mission'
+import About from './About'
+import Projects from './Projects'
+import Contact from './Contact'
+import Parallax1 from './Parallax1'
+import Parallax2 from './Parallax2'
+import Parallax3 from './Parallax3'
+import Parallax4 from './Parallax4'
 
 const Home = () => {
   return (
@@ -9,14 +15,20 @@ const Home = () => {
 
       <Splash />
       <Parallax1 />
+      <Mission />
       <Parallax2 />
+      <About />
+      <Parallax3 />
+      <Projects />
+      <Parallax4 />
+      <Contact />
 
-      <h2>Goodbye, Agent 007.</h2>
+      <h5>Footer maybe later.</h5>
 
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut consectetur voluptatum nobis enim necessitatibus, rerum, eos ex blanditiis quidem sit ab. Aperiam ducimus, explicabo suscipit veniam animi quae inventore corporis.</p>
+      <div className="home-bg" ></div>
 
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
