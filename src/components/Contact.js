@@ -11,7 +11,7 @@ class Contact extends Component {
     return (
       <div className="blue-see-thru">
       <h2>Contact Us</h2>
-      <p>We would love to hear from you and about your project.</h2>
+      <p>We would love to hear from you and about your project.</p>
        <form method="POST">
        <label htmlFor="name">Name</label>
     <input type="text" name="name" />
