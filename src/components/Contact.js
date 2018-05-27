@@ -9,6 +9,10 @@ class Contact extends Component {
     email: '',
     message: '',
   }
+
+  updateField(field, value){
+    this.setState({[field]: value})
+  }
   render() {
     return (
       <div className="blue-see-thru">
@@ -28,11 +32,21 @@ class Contact extends Component {
   </form>
          */}
         {/* Name Field */}
-        <Field onChange={} value={} />
+        <Field 
+        onChange={(event)=> this.updateField('name', event.target.value)} 
+        value={this.state.name} 
+        />
         {/* Email Field */}
-        <Field onChange={} value={} />
+        <Field 
+        onChange={(event)=> this.updateField('email', event.target.value)} 
+        value={this.state.email} 
+        />
         {/* Message Field */}
-        <Field textarea onChange={} value={} />
+        <Field 
+        textarea 
+        onChange={(event)=> this.updateField('message', event.target.value)} 
+        value={this.state.message} 
+        />
         {/* submit button */}
         <FormButton formValues={this.state} email="JasenABaker@gmail.com" />
       </div>
