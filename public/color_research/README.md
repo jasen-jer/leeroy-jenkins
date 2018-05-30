@@ -4,13 +4,31 @@
 
 ### PRACTICAL PROTOTYPE
 
-fdsa
+Here is my final prototype. See image for html classes and hex codes:
+
+[Prototype colors](./griffinpuff_colors_june_1.png "Prototype colors")
+
+Resource for [Materialize Colors](https://materializecss.com/color.html) available from the CDN. 
+
+##### We can use the Materialize shortcuts above for our prototype. Saves time!
 
 ### First draft
 
 [https://coolors.co/e8bd3c-9d002f-fc9eb3-00c5db-00768b](https://coolors.co/e8bd3c-9d002f-fc9eb3-00c5db-00768b)
 
 (All colors sampled directly from research images below.)
+
+### Second Drafts
+
+A.
+[http://colorpalettes.net/color-palette-3785/](http://colorpalettes.net/color-palette-3785/)
+
+B.
+[http://colorpalettes.net/color-palette-3795/](http://colorpalettes.net/color-palette-3795/)
+
+C.
+[http://colorpalettes.net/color-palette-3855/](http://colorpalettes.net/color-palette-3855/)
+
 
 ### Blue-based
 
