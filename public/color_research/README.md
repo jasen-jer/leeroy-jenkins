@@ -6,7 +6,7 @@
 
 Here is my final prototype. See image for html classes and hex codes:
 
-[Prototype colors](./griffinpuff_colors_june_1.png "Prototype colors")
+![Prototype colors](./griffinpuff_colors_june_1.png "Prototype colors")
 
 Resource for [Materialize Colors](https://materializecss.com/color.html) available from the CDN. 
 
