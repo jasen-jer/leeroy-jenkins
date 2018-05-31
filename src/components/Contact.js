@@ -32,18 +32,21 @@ class Contact extends Component {
   </form>
          */}
         {/* Name Field */}
-        <Field 
+        <Field
+        label="Name"
         onChange={(event)=> this.updateField('name', event.target.value)} 
         value={this.state.name} 
         />
         {/* Email Field */}
-        <Field 
+        <Field
+        label="Email"
         onChange={(event)=> this.updateField('email', event.target.value)} 
         value={this.state.email} 
         />
         {/* Message Field */}
-        <Field 
-        textarea 
+        <Field
+        label="Message"
+        textarea={true}
         onChange={(event)=> this.updateField('message', event.target.value)} 
         value={this.state.message} 
         />
