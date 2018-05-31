@@ -3,7 +3,7 @@
 @import 'https://fonts.googleapis.com/icon?family=Material+Icons';
 @import 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css';
 @import 'https://fonts.googleapis.com/css?family=Roboto|Noto+Sans';
-
+@import 'https://fonts.googleapis.com/css?family=Oswald';
 /* defaults */
 html, body, #root, #content {
   margin: 0;
