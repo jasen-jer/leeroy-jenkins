@@ -128,42 +128,5 @@ h4 { font-size: 1.2rem; }
 /* projects component */
 
 .projects-wrapper {
-  width: 100%;
-  background: rgba(0,120,220,.90)
-}
-.all-projects-card {
-display: flex;
-justify-content: space-around;
-flex-wrap: wrap;
-width: 100%;
-}
-.project-card {
-min-height: 400px;
-max-height: 50%;
-width: 320px;
-margin: 20px 2px;
-padding: 10px 20px;
-background-color: rgba(173, 216, 230, .1);
-}
-.project-img{
-width: 100%;
-max-width: 500px;
-box-shadow: 0;
-transition: box-shadow 0.3s ease;
-border-radius: 1%;
-}
-.project-img:hover{
-  box-shadow: 7px 4px 32px 0 #074854;
-  transition: box-shadow 0.3s ease;
-}
-.project-link {
-display: flex;
-flex-direction: column;
-align-items: center;
-text-decoration: none;
-color: black;
-}
-.project-title {
-margin: 0 0 5px 0;
-font-size: 1.5rem;
+  background: rgb(0,120,220)
 }
