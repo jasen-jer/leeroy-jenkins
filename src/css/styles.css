@@ -124,3 +124,19 @@ h4 { font-size: 1.2rem; }
   justify-content: space-between;
   align-items: center;
 }
+
+/* projects component */
+
+.projects-wrapper {
+  background: rgb(0,120,220)
+}
+
+/* about component */
+.about-paragraph-wrapper {
+  text-align: none;
+  justify-content: center;
+}
+.about-paragraph {
+  padding: 0 2%;
+  font-size: 1.3rem;
+}
