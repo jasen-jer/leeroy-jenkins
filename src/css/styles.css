@@ -125,19 +125,19 @@ h4 { font-size: 1.2rem; }
   align-items: center;
 }
 
-/* project component */
+/* projects component */
 
 .projects-wrapper {
   width: 100%;
   background: rgba(0,120,220,.90)
 }
-.projects-div {
+.all-projects-card {
 display: flex;
 justify-content: space-around;
 flex-wrap: wrap;
 width: 100%;
 }
-.project-div {
+.project-card {
 min-height: 400px;
 max-height: 50%;
 width: 320px;
@@ -156,7 +156,7 @@ border-radius: 1%;
   box-shadow: 7px 4px 32px 0 #074854;
   transition: box-shadow 0.3s ease;
 }
-.styled-link {
+.project-link {
 display: flex;
 flex-direction: column;
 align-items: center;
