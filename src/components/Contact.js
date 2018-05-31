@@ -1,6 +1,33 @@
 import React, { Component } from 'react';
+import styled from 'styled-components'
 import Field from './Field'
 import FormButton from './FormButton'
+
+
+
+const ContactForm = styled.div`
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  h2{
+    font-size: 2 em;
+    font-family: 'Oswald', sans-serif;
+  }
+  p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.3em;
+  }
+
+  textarea {
+    width: 50%;
+    height: 20%;
+  }
+
+`
 
 // probably needs to be stateful instead of stateless
 class Contact extends Component {
@@ -16,6 +43,7 @@ class Contact extends Component {
   render() {
     return (
       <div className="blue-see-thru">
+      <ContactForm>
         <h2>Contact Us</h2>
         <p>We would love to hear from you and about your project.</p>
         {/* <form method="POST">
@@ -44,14 +72,16 @@ class Contact extends Component {
         value={this.state.email} 
         />
         {/* Message Field */}
-        <Field
-        label="Message"
-        textarea={true}
+        <textarea
+        rows="3"
+        cols="3"
+        placeholder="Message"
         onChange={(event)=> this.updateField('message', event.target.value)} 
         value={this.state.message} 
-        />
+        ></textarea>
         {/* submit button */}
         <FormButton formValues={this.state} email="JasenABaker@gmail.com" />
+        </ContactForm>
       </div>
     );
   }

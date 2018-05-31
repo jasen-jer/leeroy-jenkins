@@ -23,11 +23,15 @@ class FormButton extends Component {
         console.log(`Form Values are ${this.props.formValues}`)
         this.setState({isClicked: true})
     }
+
     
     render(){
+        const html = `Name: ${this.props.formValues.name}
+                        Email: ${this.props.formValues.email}
+                        Message: ${this.props.formValues.message}`
     return(
-        <a
-        href={`mailto:${this.props.email}?subject=More%20Information&body=${this.props.formValues} `}
+        <a class="btn"
+        href={`mailto:${this.props.email}?subject=More%20Information&body=${html}`}
         disabled={this.state.isClicked}
         onClick={this.logFormToConsole}
         >
