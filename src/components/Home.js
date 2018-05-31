@@ -8,6 +8,7 @@ import Parallax1 from './Parallax1'
 import Parallax2 from './Parallax2'
 import Parallax3 from './Parallax3'
 import Parallax4 from './Parallax4'
+import { Element} from 'react-scroll'
 
 const Home = () => {
   return (
@@ -21,7 +22,9 @@ const Home = () => {
       <Parallax3 />
       <Projects />
       <Parallax4 />
+      <Element name="Contact">
       <Contact />
+      </Element>
 
       <h5>Footer maybe later.</h5>
 
