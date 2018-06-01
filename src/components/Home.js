@@ -32,7 +32,7 @@ const Home = () => {
       <Contact />
       </Element>
 
-      <h5>Footer maybe later.</h5>
+      
 
       <div className="home-bg" ></div>
 
