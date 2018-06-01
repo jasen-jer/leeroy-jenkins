@@ -51,7 +51,7 @@ const Splash = () => {
                     delay={30}
                     isDynamic={true}> Contact</Link></div>
         <h1 className="headline-splash">! GriffinPuff !</h1>
-        <h3>The <span className="tag-span">other</span> courageous guys.</h3>
+        <h3 className="tag">The <span className="tag-span">other</span> courageous guys.</h3>
       </div>
       
       {/* scroll button */}

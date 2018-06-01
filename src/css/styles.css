@@ -4,7 +4,7 @@
 @import 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css';
 @import 'https://fonts.googleapis.com/css?family=Roboto|Noto+Sans';
 @import 'https://fonts.googleapis.com/css?family=Oswald';
-@import 'https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911';
+@import 'https://fonts.googleapis.com/css?family=Bitter|Goudy+Bookletter+1911';
 /* defaults */
 html, body, #root, #content {
   margin: 0;
@@ -55,13 +55,16 @@ h4 { font-size: 1.2rem; }
 /* splash styles */
 .container-splash {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   background: lightcyan;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  background-image: url("/Lion.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .container-splash-top {
   width: 100%;
@@ -82,12 +85,19 @@ h4 { font-size: 1.2rem; }
 }
 .headline-splash {
   padding-top: 100px;
+  font-size: 5rem;
+  color: white;
   font-family: 'Goudy Bookletter 1911', serif;
 }
 .btn-splash-scroll {
   padding: 0 10px;
   font-size: 3rem;
   font-weight: bold;
+}
+.tag{
+  font-size: 1.5rem;
+  color: white;
+  font-family: 'Bitter', serif;
 }
 .tag-span{
   font-style: italic; 
