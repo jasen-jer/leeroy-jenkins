@@ -89,6 +89,9 @@ h4 { font-size: 1.2rem; }
   font-size: 3rem;
   font-weight: bold;
 }
+.tag-span{
+  font-style: italic; 
+}
 
 /* parallax general styles */
 .container-p {

@@ -16,11 +16,17 @@ const Home = () => {
 
       <Splash />
       <Parallax1 />
+      <Element name="Mission">
       <Mission />
+      </Element>
       <Parallax2 />
+      <Element name="About">
       <About />
+      </Element>
       <Parallax3 />
+      <Element name="Projects">
       <Projects />
+      </Element>
       <Parallax4 />
       <Element name="Contact">
       <Contact />
