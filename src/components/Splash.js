@@ -6,9 +6,9 @@ const Splash = () => {
 
       <div className="container-splash-top">
         {/* hidden for now */}
-        <div className="nav-splash hide">Home | Mission | About Us | Project Samples | Contact</div>
+        <div className="nav-splash">Home | Mission | About Us | Project Samples | Contact</div>
         <h1 className="headline-splash">! GriffinPuff !</h1>
-        <h3>Tagline or call to action text.</h3>
+        <h3>The other courageous guys.</h3>
       </div>
       
       {/* scroll button */}

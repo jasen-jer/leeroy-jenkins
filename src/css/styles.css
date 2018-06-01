@@ -4,7 +4,7 @@
 @import 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css';
 @import 'https://fonts.googleapis.com/css?family=Roboto|Noto+Sans';
 @import 'https://fonts.googleapis.com/css?family=Oswald';
-
+@import 'https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911';
 /* defaults */
 html, body, #root, #content {
   margin: 0;
@@ -82,6 +82,7 @@ h4 { font-size: 1.2rem; }
 }
 .headline-splash {
   padding-top: 100px;
+  font-family: 'Goudy Bookletter 1911', serif;
 }
 .btn-splash-scroll {
   padding: 0 10px;
