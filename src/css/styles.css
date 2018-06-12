@@ -144,21 +144,14 @@ h4 { font-size: 1.2rem; }
   align-items: center;
 }
 
-.card {
-  max-width: 320px;
-}
-
-.row-team-cards {
+.card-row-wrapper {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: flex-start;
   flex-wrap: wrap;
-}
-
-/* projects component */
-.projects-wrapper {
-  background: rgb(0,120,220)
+  text-align: left;
 }
 
 /* about component */

@@ -5,11 +5,11 @@ const Team = () => {
     <div className="blue-see-thru">
       <h2>Meet the Team</h2>
 
-      <div className="row-team-cards">
+      <div className="card-row-wrapper">
         <div className="card">
           <div className="card-image">
             <img src="/jasen_bio.jpg" />
-            <span className="card-title">Jasen Baker</span>
+            <span className="card-title black-text">Jasen Baker</span>
           </div>
           <div className="card-content">
             <p>
@@ -26,7 +26,7 @@ const Team = () => {
             <img src="/jeremy_bio.png" />
             <span className="card-title">Jeremy Abernathy</span>
           </div>
-          <div className="card-content">
+          <div className="card-content black-text">
             <p>
               Jeremy takes great pride in writing clean code and designing creative solutions for real-world application. Agile planning, team collaboration, and client communications are among his highest values. Also, Jeremy enjoys chatting about Walking Dead and Game of Thrones.
             </p>
@@ -39,7 +39,7 @@ const Team = () => {
         <div className="card">
           <div className="card-image">
             <img src="/tyler_bio.jpg" />
-            <span className="card-title">Tyler McDonald</span>
+            <span className="card-title black-text">Tyler McDonald</span>
           </div>
           <div className="card-content">
             <p>
