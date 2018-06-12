@@ -3,11 +3,13 @@ import Splash from './Splash'
 import Mission from './Mission'
 import About from './About'
 import Projects from './Projects'
+import Team from './Team'
 import Contact from './Contact'
 import Parallax1 from './Parallax1'
 import Parallax2 from './Parallax2'
 import Parallax3 from './Parallax3'
 import Parallax4 from './Parallax4'
+import Parallax5 from './Parallax5'
 import { Element} from 'react-scroll'
 
 const Home = () => {
@@ -28,6 +30,8 @@ const Home = () => {
       <Projects />
       </Element>
       <Parallax4 />
+      <Team />
+      <Parallax5 />
       <Element name="Contact">
       <Contact />
       </Element>
