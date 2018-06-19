@@ -34,18 +34,6 @@ const Mission = () => {
         There's no need to have an ugly, confusing, and broken site. We love to code and to bring to life elegant and innovative experiences. We want to help businesses have 
       a great looking and functional web presence and bring a little more beauty into the world.
       </blockquote>
-      <Link 
-                    activeClass= "Active"
-                    to="Contact"
-                    spy={true}
-                    smooth={true}
-                    hashSpy={true}
-                    offset={20}
-                    duration={1000}
-                    delay={30}
-                    isDynamic={true}>
-      <a class="btn">Work with us</a>
-      </Link>
       </MissContainer>
     </div>
   );
