@@ -62,6 +62,18 @@ const Splash = () => {
       </div>
 
       <div className="container-splash-bottom">
+        <Link 
+          activeClass= "Active"
+          to="Contact"
+          spy={true}
+          smooth={true}
+          hashSpy={true}
+          offset={20}
+          duration={1000}
+          delay={30}
+          isDynamic={true}>
+            <a class="btn">Work with us</a>
+        </Link>
         <div>
           <Link
             activeClass="Active"
@@ -76,6 +88,7 @@ const Splash = () => {
             <i className="material-icons btn-splash-scroll">keyboard_arrow_down</i>
           </Link>
         </div>
+        
 
         <div className="bg-splash"></div>
       </div>
